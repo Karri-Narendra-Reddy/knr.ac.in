@@ -1,0 +1,218 @@
+*{
+margin:  0;
+padding: 0;
+}
+.nav{
+    background-color: white;
+    z-index: 8;
+    padding-left: 20px;
+    padding-right: 30px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 1.5);
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    float: left;
+    width: 60%;
+}
+.nav_side{
+    float: right;
+    width: 40% ;
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: cosmic, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color: goldenrod;
+    transition: all 1s;
+
+}
+.key_points{
+    background-image: url('hackerbackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 110vh;
+    padding: 5px;
+}
+.key_points h2{
+    color: ghostwhite ;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 120px;
+    text-shadow: 2px 2px #FF0000;
+}
+.key_points .key_container{
+    display: flex;
+
+}
+.key_points .key_container .key_image{
+    float: left;
+    padding: 20px;
+    width: 40%;
+    margin-left: 150px;
+}
+.key_points .key_container .key_image img{
+    width: 60%;
+    height: 60%;
+    border: 5px dashed red;
+    border-radius: 10px;
+    
+    
+}
+.key_points .key_container .key_content{
+    float: right;
+    width: 40%;
+    padding: 50px;
+    float: right;
+    margin-left: 10px;
+}
+.key_points .key_container .key_content p{
+    
+    
+    
+    font-size: 20px;
+    font-weight: thin;
+    color: gold;
+    text-shadow: 2px 2px black;
+    text-align: left;
+    font-family: cosmic,sans-serif;
+    
+}
+.about{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: cosmic,sans-serif;
+}
+.about h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: palevioletred;
+    text-shadow: 2px 2px red;
+}
+.about p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+.about h2{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px red;
+    text-align: left;
+}
+.about p1{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px red;
+}
+
+footer{
+    background-color:#D7DBDD  ;
+}
+footer .pages{
+    text-align: center;
+}
+footer .pages h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin: 10px;
+    color: red;
+    font-size: 15px;
+    font-family: cosmic,sans-serif;
+}
+footer .pages a:hover{
+    color: blue;
+}
+
+footer .document{
+    text-align: center;
+}
+footer .document h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .document a{
+    text-decoration: none;
+    margin: 10px;
+    color: red;
+    font-size: 15px;
+    font-family: cosmic,sans-serif;
+}
+footer .document a:hover{
+    color: blue;
+}
+
+footer .social_media{
+    text-align: center;
+}
+footer .social_media h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .social_media a{
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+    margin: 10px;
+}
+footer .social_media a:hover{
+    color: blue;
+}
+
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .contact a{
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+    margin: 10px;
+}
+footer .contact a:hover{
+    color: blue;
+}
